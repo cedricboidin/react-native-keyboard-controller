@@ -5,6 +5,10 @@
 //  Created by Kiryl Ziusko on 07/08/2025.
 //
 
+import os
+import QuartzCore
+import UIKit
+
 extension KeyboardMovementObserver {
   @objc func setupKeyboardWatcher() {
     // sometimes `will` events can be called multiple times.
@@ -29,18 +33,38 @@ extension KeyboardMovementObserver {
     let (visibleKeyboardHeight, keyboardFrameY) = keyboardTrackingView.view.frameTransitionInWindow
     var keyboardPosition = visibleKeyboardHeight - KeyboardAreaExtender.shared.offset
 
+    os_log(
+      "%{public}@",
+      log: kcLog,
+      type: .info,
+      "tick pos=\(keyboardPosition) prev=\(prevKeyboardPosition) kbH=\(keyboardHeight)"
+        + " frameY=\(keyboardFrameY) anim=\(animation == nil ? "nil" : "set")"
+        + " from=\(animation?.fromValue ?? -1) to=\(animation?.toValue ?? -1)"
+        + " inc=\(animation?.isIncreasing ?? false) fin=\(animation?.isFinished ?? false)"
+        + " last=\(animation?.lastValue ?? -1)"
+    )
+
     if keyboardPosition == prevKeyboardPosition || keyboardFrameY == 0 {
+      os_log("%{public}@", log: kcLog, type: .info, "tick BAIL same-or-zero")
       return
     }
 
     if animation == nil {
       initializeAnimation(fromValue: prevKeyboardPosition, toValue: keyboardHeight)
+      os_log(
+        "%{public}@",
+        log: kcLog,
+        type: .info,
+        "tick recreated anim=\(animation == nil ? "nil" : "set")"
+          + " from=\(animation?.fromValue ?? -1) to=\(animation?.toValue ?? -1)"
+      )
     }
 
     prevKeyboardPosition = keyboardPosition
 
     if let animation = animation {
       if animation.isFinished {
+        os_log("%{public}@", log: kcLog, type: .info, "tick BAIL isFinished last=\(animation.lastValue) to=\(animation.toValue)")
         return
       }
       let baseDuration = animation.timingAt(value: keyboardPosition)
@@ -64,6 +88,8 @@ extension KeyboardMovementObserver {
       keyboardPosition = race(position, keyboardPosition)
       animation.lastValue = keyboardPosition
     }
+
+    os_log("%{public}@", log: kcLog, type: .info, "EMIT onKeyboardMove pos=\(keyboardPosition) progress=\(keyboardPosition / CGFloat(keyboardHeight))")
 
     onEvent(
       "onKeyboardMove",

@@ -5,6 +5,10 @@
 //  Created by Kiryl Ziusko on 07/08/2025.
 //
 
+import os
+import QuartzCore
+import UIKit
+
 extension KeyboardMovementObserver {
   @objc func keyboardWillAppear(_ notification: Notification) {
     guard !UIResponder.isKeyboardPreloading else { return }
@@ -24,6 +28,7 @@ extension KeyboardMovementObserver {
       self.duration = duration
 
       onRequestAnimation()
+    os_log("%{public}@", log: kcLog, type: .info, "willAppear h=\(self.keyboardHeight) dur=\(duration) prev=\(prevKeyboardPosition)")
       onEvent("onKeyboardMoveStart", Float(self.keyboardHeight) as NSNumber, 1, duration as NSNumber, tag)
       onNotify("KeyboardController::keyboardWillShow", buildEventParams(self.keyboardHeight, duration, tag))
 
@@ -45,6 +50,7 @@ extension KeyboardMovementObserver {
     self.duration = duration
 
     onRequestAnimation()
+    os_log("%{public}@", log: kcLog, type: .info, "willDisappear dur=\(duration) prev=\(prevKeyboardPosition) anim=\(animation == nil ? "nil" : "set") fin=\(animation?.isFinished ?? false)")
     onEvent("onKeyboardMoveStart", 0, 0, duration as NSNumber, tag)
     onNotify("KeyboardController::keyboardWillHide", buildEventParams(0, duration, tag))
 
@@ -68,6 +74,7 @@ extension KeyboardMovementObserver {
       let progress = min(height / self.keyboardHeight, 1.0)
 
       onCancelAnimation()
+      os_log("%{public}@", log: kcLog, type: .info, "didAppear h=\(height) progress=\(progress)")
       onEvent("onKeyboardMoveEnd", height as NSNumber, progress as NSNumber, duration as NSNumber, tag)
       onNotify("KeyboardController::keyboardDidShow", buildEventParams(height, duration, tag))
 
@@ -87,6 +94,7 @@ extension KeyboardMovementObserver {
     tag = UIResponder.current.reactViewTag
 
     onCancelAnimation()
+    os_log("%{public}@", log: kcLog, type: .info, "didDisappear")
     onEvent("onKeyboardMoveEnd", 0 as NSNumber, 0, duration as NSNumber, tag)
     onNotify("KeyboardController::keyboardDidHide", buildEventParams(0, duration, tag))
 

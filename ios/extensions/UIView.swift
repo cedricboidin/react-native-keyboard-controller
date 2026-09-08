@@ -7,7 +7,11 @@
 //
 
 import Foundation
+import os
 import UIKit
+
+// TEMP (native trace): module-internal logger, filter with subsystem == "kc.debug".
+let kcLog = OSLog(subsystem: "kc.debug", category: "keyboard")
 
 public extension UIView {
   var globalFrame: CGRect? {
@@ -61,6 +65,17 @@ public extension Optional where Wrapped == UIView {
       let opacity = self?.layer.presentation()?.opacity ?? 0
       position = CGFloat(opacity) * position
     }
+
+    os_log(
+      "%{public}@",
+      log: kcLog,
+      type: .info,
+      "frame keys=[\(((self?.layer.presentation()?.animationKeys() ?? []).joined(separator: ",")))]"
+        + " crossFade=\(areCrossFadeTransitionsEnabled)"
+        + " opacity=\(self?.layer.presentation()?.opacity ?? -1)"
+        + " frameY=\(frameY) windowH=\(windowH) -> position=\(position)"
+        + " presentation=\(self?.layer.presentation() == nil ? "nil" : "set")"
+    )
 
     return (position, frameY)
   }
