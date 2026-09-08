@@ -28,7 +28,20 @@ The single root cause surfaces as two different symptoms, depending only on what
 
 **`animation` = the show's object, `isFinished == true`** — the dismissal cancelled the show's `did` task (`scheduleDidEvent` begins with `keyboardDidTask?.cancel()`), so `animation` survived with `lastValue == toValue`. `keyboardWillDisappear` calls `initializeAnimation(fromValue:toValue: 0)`, but that only assigns when it finds a CoreAnimation animation — here it finds none and silently keeps the stale object. Every tick then returns at `KeyboardMovementObserver+Watcher.swift:43` on `isFinished`, so **no** movement event is emitted: `progress` stays at 1 for the whole descent, then `onEnd` collapses it in a single un-animated frame.
 
-One observation that is a co-symptom rather than a cause: iOS posts `keyboardWillHide` **twice** on the failing dismissals and once on the healthy ones. But `animationKeys` is already empty at the *first* of the two, so the duplicate is not what breaks it. Its only effect is to arm a second, degenerate transition.
+One observation that is a co-symptom rather than a cause: iOS posts `keyboardWillHide` **twice** on the failing dismissals and once on the healthy ones. But `animationKeys` is already empty at the *first* of the two, so the duplicate is not what breaks it — and the iOS 18.3 run below shows the same duplicate on dismissals that are all correct. Its only effect here is to arm a second, degenerate transition.
+
+**Not reproducible on iOS 18.3.** Same commit, same unpatched code, same gesture, on an iPhone 16 / iOS 18.3 simulator: six dismissals out of six correct, `move` 30-31 each, progress walking 0.98 -> 0.000. Under iOS 26 the failure rate is roughly one dismissal in two, so six clean runs would be a ~1.6% coincidence.
+
+```
+[ok] starts=2 move=30 interactive=0  p 0.984->0.000 p0@328ms end@1158ms iosDur=250
+[ok] starts=2 move=30 interactive=0  p 0.983->0.000 p0@328ms end@1158ms iosDur=250
+[ok] starts=2 move=30 interactive=0  p 0.982->0.000 p0@328ms end@1161ms iosDur=250
+[ok] starts=2 move=30 interactive=0  p 0.981->0.000 p0@329ms end@1159ms iosDur=250
+[ok] starts=1 move=31 interactive=0  p 0.948->0.000 p0@319ms end@ 608ms iosDur=250
+[ok] starts=2 move=30 interactive=0  p 0.991->0.000 p0@324ms end@1156ms iosDur=250
+```
+
+That points at the iOS 26 tracking path specifically: below iOS 26 the observer samples the real keyboard view found by `KeyboardViewLocator`, and only from iOS 26 does it sample its own view pinned to `keyboardLayoutGuide`. Two things it does **not** settle, and I would not want to overstate: whether the guide-pinned view is simply attached to the wrong view controller (`attachToTopmostView` uses `UIApplication.topViewController()?.view`), or whether iOS 26 genuinely applies the guide constraint without animating it on a scroll-driven dismissal. The device also differs (iPhone 16 vs 17) and so does the reported duration (250ms vs 383ms).
 
 **Code snippet**
 
@@ -111,6 +124,6 @@ Three caveats I would rather state than hide:
 
 - easeOutQuart is a stand-in for the real spring. The residual is confined to the first ~40 ms, where the spring ramps up from zero velocity while the curve starts immediately, so the view very slightly *leads* the keyboard at the start. Reading the real curve out of the notification would be better, but `UIKeyboardAnimationCurveUserInfoKey` reports a private value for the keyboard and its control points are not public.
 - I have not found why iOS applies the `keyboardLayoutGuide` constraint without animating it on these dismissals, nor why it posts `keyboardWillHide` twice on exactly those. Both may have a common cause upstream of the observer that would be better addressed directly.
-- Only tested on an iOS 26.5 simulator. The pre-iOS-26 path tracks the real keyboard view rather than a layout-guide-pinned view, so it may not have this failure at all — in which case gating the fallback on `usesKeyboardLayoutGuideTracking` would be more conservative than what the patch does today.
+- The fix is applied unconditionally, but the failure only showed up on iOS 26 (see the iOS 18.3 run above). Gating the fallback on `usesKeyboardLayoutGuideTracking` would be more conservative, and may well be the right call — I left it ungated because a layer carrying no animation cannot be sampled on any OS, so the fallback should be inert where it never triggers.
 
 Happy to turn this into a PR if the direction looks right.
