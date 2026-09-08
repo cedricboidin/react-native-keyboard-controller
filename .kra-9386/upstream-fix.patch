@@ -1,0 +1,151 @@
+diff --git a/ios/observers/movement/observer/KeyboardMovementObserver+Animation.swift b/ios/observers/movement/observer/KeyboardMovementObserver+Animation.swift
+index c56d308..c6cf037 100644
+--- a/ios/observers/movement/observer/KeyboardMovementObserver+Animation.swift
++++ b/ios/observers/movement/observer/KeyboardMovementObserver+Animation.swift
+@@ -17,5 +17,10 @@ extension KeyboardMovementObserver {
+         return
+       }
+     }
++
++    // No CoreAnimation animation attached: drop whatever is left from the
++    // previous transition rather than keeping it, or `updateKeyboardFrame`
++    // early-returns forever on its already-satisfied `isFinished`.
++    animation = nil
+   }
+ }
+diff --git a/ios/observers/movement/observer/KeyboardMovementObserver+Listeners.swift b/ios/observers/movement/observer/KeyboardMovementObserver+Listeners.swift
+index 60ae5de..e5ccf57 100644
+--- a/ios/observers/movement/observer/KeyboardMovementObserver+Listeners.swift
++++ b/ios/observers/movement/observer/KeyboardMovementObserver+Listeners.swift
+@@ -28,6 +28,7 @@ extension KeyboardMovementObserver {
+       onNotify("KeyboardController::keyboardWillShow", buildEventParams(self.keyboardHeight, duration, tag))
+ 
+       setupKeyboardWatcher()
++      beginTransition(to: self.keyboardHeight, duration: CGFloat(duration) / 1000)
+       initializeAnimation(fromValue: prevKeyboardPosition, toValue: self.keyboardHeight)
+       scheduleDidEvent(height: self.keyboardHeight, duration: animation?.duration ?? CGFloat(duration) / 1000)
+     }
+@@ -50,6 +51,7 @@ extension KeyboardMovementObserver {
+ 
+     setupKeyboardWatcher()
+     removeKVObserver()
++    beginTransition(to: 0, duration: CGFloat(duration) / 1000)
+     initializeAnimation(fromValue: prevKeyboardPosition, toValue: 0)
+     scheduleDidEvent(height: 0, duration: animation?.duration ?? CGFloat(duration) / 1000)
+   }
+@@ -73,6 +75,7 @@ extension KeyboardMovementObserver {
+ 
+       removeKeyboardWatcher()
+       setupKVObserver()
++      transitionTarget = nil
+       animation = nil
+ 
+       NotificationCenter.default.post(
+@@ -92,6 +95,7 @@ extension KeyboardMovementObserver {
+ 
+     removeKeyboardWatcher()
+     prevKeyboardPosition = 0
++    transitionTarget = nil
+     animation = nil
+   }
+ 
+@@ -114,4 +118,14 @@ extension KeyboardMovementObserver {
+     keyboardDidTask = task
+     DispatchQueue.main.asyncAfter(deadline: .now() + duration, execute: task)
+   }
++
++  /// Records the transition iOS just announced, so `updateKeyboardFrame` can
++  /// fall back to a time-driven progression when the keyboard layer carries no
++  /// CoreAnimation animation to sample.
++  @objc func beginTransition(to target: CGFloat, duration: CGFloat) {
++    transitionTarget = target
++    transitionFrom = prevKeyboardPosition
++    transitionStart = CACurrentMediaTime()
++    transitionDuration = max(duration, 0.001)
++  }
+ }
+diff --git a/ios/observers/movement/observer/KeyboardMovementObserver+Watcher.swift b/ios/observers/movement/observer/KeyboardMovementObserver+Watcher.swift
+index 61b53a1..08a4c3f 100644
+--- a/ios/observers/movement/observer/KeyboardMovementObserver+Watcher.swift
++++ b/ios/observers/movement/observer/KeyboardMovementObserver+Watcher.swift
+@@ -29,12 +29,60 @@ extension KeyboardMovementObserver {
+     let (visibleKeyboardHeight, keyboardFrameY) = keyboardTrackingView.view.frameTransitionInWindow
+     var keyboardPosition = visibleKeyboardHeight - KeyboardAreaExtender.shared.offset
+ 
++    // The keyboard layer is not always animated: on a scroll-driven dismissal
++    // the `keyboardLayoutGuide` constraint is sometimes applied instantly, and
++    // the presentation layer then reports its FINAL position on the very first
++    // tick. Sampling cannot describe the travel in that case, so drive the
++    // progression from the duration iOS announced instead.
++    //
++    // `transitionFrom != target` skips the degenerate case: iOS can post
++    // `keyboardWillHide` twice, and the second one announces a hide from a
++    // keyboard that is already down -- no travel to describe.
++    let isLayerAnimating =
++      !((keyboardTrackingView.view?.layer.presentation()?.animationKeys() ?? []).isEmpty)
++
++    if !isLayerAnimating, let target = transitionTarget, transitionFrom != target {
++      let elapsed = min(
++        max((CACurrentMediaTime() - transitionStart) / transitionDuration, 0),
++        1
++      )
++      // easeOutQuart, fitted against the sampled trajectory of a healthy hide
++      // on iOS 26.5 (rms 0.038 across the 383ms travel). The system curve is a
++      // spring that covers half its distance within the first ~19% of the
++      // reported duration, so any ease-in start lags visibly. The residual is
++      // confined to the first ~40ms, where the real spring ramps up from zero
++      // velocity while this curve starts immediately.
++      let remaining = 1 - elapsed
++      let eased = 1 - remaining * remaining * remaining * remaining
++      let position = transitionFrom + (target - transitionFrom) * eased
++
++      if elapsed >= 1 {
++        // Travel is over: release the transition so this branch stops taking
++        // priority. Otherwise it keeps re-emitting the final value on every
++        // display-link tick for as long as the link runs -- indefinitely
++        // whenever the `did` event has been cancelled.
++        transitionTarget = nil
++      }
++
++      prevKeyboardPosition = position
++
++      onEvent(
++        "onKeyboardMove",
++        position as NSNumber,
++        position / CGFloat(keyboardHeight) as NSNumber,
++        duration as NSNumber,
++        tag
++      )
++
++      return
++    }
++
+     if keyboardPosition == prevKeyboardPosition || keyboardFrameY == 0 {
+       return
+     }
+ 
+     if animation == nil {
+-      initializeAnimation(fromValue: prevKeyboardPosition, toValue: keyboardHeight)
++      initializeAnimation(fromValue: prevKeyboardPosition, toValue: transitionTarget ?? keyboardHeight)
+     }
+ 
+     prevKeyboardPosition = keyboardPosition
+diff --git a/ios/observers/movement/observer/KeyboardMovementObserver.swift b/ios/observers/movement/observer/KeyboardMovementObserver.swift
+index ae97d61..a6c52cf 100644
+--- a/ios/observers/movement/observer/KeyboardMovementObserver.swift
++++ b/ios/observers/movement/observer/KeyboardMovementObserver.swift
+@@ -20,6 +20,14 @@ public class KeyboardMovementObserver: NSObject {
+   // progress tracker
+   @objc public var keyboardTrackingView = KeyboardTrackingView()
+   var animation: KeyboardAnimation?
++  // The transition currently in flight. `transitionTarget` is the keyboard
++  // height while showing and 0 while hiding, `nil` while idle; the rest lets
++  // `updateKeyboardFrame` drive the progression from elapsed time when the
++  // keyboard layer turns out not to be animated at all.
++  var transitionTarget: Double?
++  var transitionFrom = 0.0
++  var transitionStart: CFTimeInterval = 0
++  var transitionDuration = 0.0
+ 
+   var prevKeyboardPosition = 0.0
+   var displayLink: CADisplayLink!

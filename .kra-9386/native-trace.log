@@ -1,0 +1,833 @@
+getpwuid_r did not find a match for uid 501
+Filtering the log data using "subsystem == "kc.debug""
+Timestamp               Ty Process[PID:TID]
+2026-09-08 16:27:52.236 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willAppear h=335.0 dur=383 prev=0.0
+2026-09-08 16:27:52.306 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=855.8061956949532 windowH=874.0 -> position=18.193804305046797 presentation=set
+2026-09-08 16:27:52.306 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=18.193804305046797 prev=0.0 kbH=335.0 frameY=855.8061956949532 anim=set from=0.0 to=335.0 inc=true fin=false last=0.0
+2026-09-08 16:27:52.306 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=56.88326412772926 progress=0.16980078844098287
+2026-09-08 16:27:52.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=783.3873806297779 windowH=874.0 -> position=90.61261937022209 presentation=set
+2026-09-08 16:27:52.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=90.61261937022209 prev=18.193804305046797 kbH=335.0 frameY=783.3873806297779 anim=set from=0.0 to=335.0 inc=true fin=false last=56.88326412772926
+2026-09-08 16:27:52.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=134.9802261393854 progress=0.40292604817726985
+2026-09-08 16:27:52.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=736.104667276144 windowH=874.0 -> position=137.89533272385597 presentation=set
+2026-09-08 16:27:52.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=137.89533272385597 prev=90.61261937022209 kbH=335.0 frameY=736.104667276144 anim=set from=0.0 to=335.0 inc=true fin=false last=134.9802261393854
+2026-09-08 16:27:52.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=177.72238859073846 progress=0.5305145928081745
+2026-09-08 16:27:52.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=693.8425263166428 windowH=874.0 -> position=180.15747368335724 presentation=set
+2026-09-08 16:27:52.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=180.15747368335724 prev=137.89533272385597 kbH=335.0 frameY=693.8425263166428 anim=set from=0.0 to=335.0 inc=true fin=false last=177.72238859073846
+2026-09-08 16:27:52.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=213.74569477739618 progress=0.6380468500817796
+2026-09-08 16:27:52.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=658.2157340049744 windowH=874.0 -> position=215.78426599502563 presentation=set
+2026-09-08 16:27:52.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=215.78426599502563 prev=180.15747368335724 kbH=335.0 frameY=658.2157340049744 anim=set from=0.0 to=335.0 inc=true fin=false last=213.74569477739618
+2026-09-08 16:27:52.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=242.97286700898258 progress=0.7252921403253211
+2026-09-08 16:27:52.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=629.3576835989952 windowH=874.0 -> position=244.6423164010048 presentation=set
+2026-09-08 16:27:52.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=244.6423164010048 prev=215.78426599502563 kbH=335.0 frameY=629.3576835989952 anim=set from=0.0 to=335.0 inc=true fin=false last=242.97286700898258
+2026-09-08 16:27:52.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=266.0402170323602 progress=0.7941499015891349
+2026-09-08 16:27:52.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=606.7523136138916 windowH=874.0 -> position=267.2476863861084 presentation=set
+2026-09-08 16:27:52.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=267.2476863861084 prev=244.6423164010048 kbH=335.0 frameY=606.7523136138916 anim=set from=0.0 to=335.0 inc=true fin=false last=266.0402170323602
+2026-09-08 16:27:52.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=283.7654252194155 progress=0.8470609708042253
+2026-09-08 16:27:52.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=589.2275085449219 windowH=874.0 -> position=284.7724914550781 presentation=set
+2026-09-08 16:27:52.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=284.7724914550781 prev=267.2476863861084 kbH=335.0 frameY=589.2275085449219 anim=set from=0.0 to=335.0 inc=true fin=false last=283.7654252194155
+2026-09-08 16:27:52.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=297.30748195843097 progress=0.8874850207714358
+2026-09-08 16:27:52.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=575.967014670372 windowH=874.0 -> position=298.032985329628 presentation=set
+2026-09-08 16:27:52.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=298.032985329628 prev=284.7724914550781 kbH=335.0 frameY=575.967014670372 anim=set from=0.0 to=335.0 inc=true fin=false last=297.30748195843097
+2026-09-08 16:27:52.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=307.42943398363275 progress=0.9176998029362171
+2026-09-08 16:27:52.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=566.0223730802536 windowH=874.0 -> position=307.9776269197464 presentation=set
+2026-09-08 16:27:52.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=307.9776269197464 prev=298.032985329628 kbH=335.0 frameY=566.0223730802536 anim=set from=0.0 to=335.0 inc=true fin=false last=307.42943398363275
+2026-09-08 16:27:52.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=314.95686678469406 progress=0.9401697515961016
+2026-09-08 16:27:52.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=558.6373525261879 windowH=874.0 -> position=315.3626474738121 presentation=set
+2026-09-08 16:27:52.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=315.3626474738121 prev=307.9776269197464 kbH=335.0 frameY=558.6373525261879 anim=set from=0.0 to=335.0 inc=true fin=false last=314.95686678469406
+2026-09-08 16:27:52.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=320.5026672080787 progress=0.9567243797256081
+2026-09-08 16:27:52.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=553.1923397779465 windowH=874.0 -> position=320.8076602220535 presentation=set
+2026-09-08 16:27:52.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=320.8076602220535 prev=315.3626474738121 kbH=335.0 frameY=553.1923397779465 anim=set from=0.0 to=335.0 inc=true fin=false last=320.5026672080787
+2026-09-08 16:27:52.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=324.56643159930684 progress=0.9688550196994234
+2026-09-08 16:27:52.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=549.2163401246071 windowH=874.0 -> position=324.7836598753929 presentation=set
+2026-09-08 16:27:52.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=324.7836598753929 prev=320.8076602220535 kbH=335.0 frameY=549.2163401246071 anim=set from=0.0 to=335.0 inc=true fin=false last=324.56643159930684
+2026-09-08 16:27:52.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=327.5156549226005 progress=0.9776586714107478
+2026-09-08 16:27:52.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=546.3319268226624 windowH=874.0 -> position=327.66807317733765 presentation=set
+2026-09-08 16:27:52.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=327.66807317733765 prev=324.7836598753929 kbH=335.0 frameY=546.3319268226624 anim=set from=0.0 to=335.0 inc=true fin=false last=327.5156549226005
+2026-09-08 16:27:52.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=329.6463329302612 progress=0.9840189042694365
+2026-09-08 16:27:52.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=544.235912501812 windowH=874.0 -> position=329.764087498188 presentation=set
+2026-09-08 16:27:52.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=329.764087498188 prev=327.66807317733765 kbH=335.0 frameY=544.235912501812 anim=set from=0.0 to=335.0 inc=true fin=false last=329.6463329302612
+2026-09-08 16:27:52.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=331.18805835561204 progress=0.9886210697182449
+2026-09-08 16:27:52.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=542.7292006611824 windowH=874.0 -> position=331.2707993388176 presentation=set
+2026-09-08 16:27:52.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=331.2707993388176 prev=329.764087498188 kbH=335.0 frameY=542.7292006611824 anim=set from=0.0 to=335.0 inc=true fin=false last=331.18805835561204
+2026-09-08 16:27:52.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=332.2916023514196 progress=0.9919152308997601
+2026-09-08 16:27:52.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=541.6515915989876 windowH=874.0 -> position=332.3484084010124 presentation=set
+2026-09-08 16:27:52.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=332.3484084010124 prev=331.2707993388176 kbH=335.0 frameY=541.6515915989876 anim=set from=0.0 to=335.0 inc=true fin=false last=332.2916023514196
+2026-09-08 16:27:52.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=333.07863474555535 progress=0.9942645813300159
+2026-09-08 16:27:52.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.879925429821 windowH=874.0 -> position=333.120074570179 presentation=set
+2026-09-08 16:27:52.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.120074570179 prev=332.3484084010124 kbH=335.0 frameY=540.879925429821 anim=set from=0.0 to=335.0 inc=true fin=false last=333.07863474555535
+2026-09-08 16:27:52.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=333.640885067436 progress=0.9959429404998089
+2026-09-08 16:27:52.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.3270238041878 windowH=874.0 -> position=333.6729761958122 presentation=set
+2026-09-08 16:27:52.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.6729761958122 prev=333.120074570179 kbH=335.0 frameY=540.3270238041878 anim=set from=0.0 to=335.0 inc=true fin=false last=333.640885067436
+2026-09-08 16:27:52.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.0424152890876 progress=0.997141538176381
+2026-09-08 16:27:52.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.9377363324165 windowH=874.0 -> position=334.06226366758347 presentation=set
+2026-09-08 16:27:52.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.06226366758347 prev=333.6729761958122 kbH=335.0 frameY=539.9377363324165 anim=set from=0.0 to=335.0 inc=true fin=false last=334.0424152890876
+2026-09-08 16:27:52.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.324431345351 progress=0.9979833771503015
+2026-09-08 16:27:52.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.6606864929199 windowH=874.0 -> position=334.3393135070801 presentation=set
+2026-09-08 16:27:52.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.3393135070801 prev=334.06226366758347 kbH=335.0 frameY=539.6606864929199 anim=set from=0.0 to=335.0 inc=true fin=false last=334.324431345351
+2026-09-08 16:27:52.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.52482172821686 progress=0.9985815573976623
+2026-09-08 16:27:52.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.4643255472183 windowH=874.0 -> position=334.5356744527817 presentation=set
+2026-09-08 16:27:52.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.5356744527817 prev=334.3393135070801 kbH=335.0 frameY=539.4643255472183 anim=set from=0.0 to=335.0 inc=true fin=false last=334.52482172821686
+2026-09-08 16:27:52.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.6665191453149 progress=0.999004534762134
+2026-09-08 16:27:52.683 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.683 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=334.5356744527817 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=false last=334.6665191453149
+2026-09-08 16:27:52.683 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=335.0 progress=1.0
+2026-09-08 16:27:52.700 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.700 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.700 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.749 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.749 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:52.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:52.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:52.932 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] didAppear h=335.0 progress=1.0
+2026-09-08 16:27:53.279 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willDisappear dur=383 prev=335.0 anim=nil fin=false
+2026-09-08 16:27:53.279 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:53.279 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.279 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.284 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.284 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=335.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.284 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick recreated anim=nil from=-1.0 to=-1.0
+2026-09-08 16:27:53.284 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=0.0 progress=0.0
+2026-09-08 16:27:53.317 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.317 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.317 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.334 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.334 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.334 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.399 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.449 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.499 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.499 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.697 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willDisappear dur=383 prev=0.0 anim=nil fin=false
+2026-09-08 16:27:53.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.749 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.749 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.749 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.799 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.799 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.849 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.849 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.849 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.949 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:53.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:53.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:53.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:54.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:54.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:54.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:54.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:54.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:54.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.049 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:54.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:54.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:54.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:54.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:54.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=nil from=-1.0 to=-1.0 inc=false fin=false last=-1.0
+2026-09-08 16:27:54.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:54.099 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] didDisappear
+2026-09-08 16:27:55.759 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willAppear h=335.0 dur=383 prev=0.0
+2026-09-08 16:27:55.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=872.8500688399654 windowH=874.0 -> position=1.1499311600346118 presentation=set
+2026-09-08 16:27:55.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=1.1499311600346118 prev=0.0 kbH=335.0 frameY=872.8500688399654 anim=set from=0.0 to=335.0 inc=true fin=false last=0.0
+2026-09-08 16:27:55.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=4.012661891725486 progress=0.011978095199180555
+2026-09-08 16:27:55.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=801.2546991705894 windowH=874.0 -> position=72.74530082941055 presentation=set
+2026-09-08 16:27:55.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=72.74530082941055 prev=1.1499311600346118 kbH=335.0 frameY=801.2546991705894 anim=set from=0.0 to=335.0 inc=true fin=false last=4.012661891725486
+2026-09-08 16:27:55.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=82.30807673162101 progress=0.24569575143767466
+2026-09-08 16:27:55.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=753.1743718087673 windowH=874.0 -> position=120.82562819123268 presentation=set
+2026-09-08 16:27:55.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=120.82562819123268 prev=72.74530082941055 kbH=335.0 frameY=753.1743718087673 anim=set from=0.0 to=335.0 inc=true fin=false last=82.30807673162101
+2026-09-08 16:27:55.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=130.07284007376825 progress=0.38827713454856194
+2026-09-08 16:27:55.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=708.7197432816029 windowH=874.0 -> position=165.28025671839714 presentation=set
+2026-09-08 16:27:55.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=165.28025671839714 prev=120.82562819123268 kbH=335.0 frameY=708.7197432816029 anim=set from=0.0 to=335.0 inc=true fin=false last=130.07284007376825
+2026-09-08 16:27:55.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=173.4180993714241 progress=0.5176659682729078
+2026-09-08 16:27:55.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=670.6610124707222 windowH=874.0 -> position=203.3389875292778 presentation=set
+2026-09-08 16:27:55.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=203.3389875292778 prev=165.28025671839714 kbH=335.0 frameY=670.6610124707222 anim=set from=0.0 to=335.0 inc=true fin=false last=173.4180993714241
+2026-09-08 16:27:55.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=210.09694502303535 progress=0.6271550597702548
+2026-09-08 16:27:55.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=639.3400838375092 windowH=874.0 -> position=234.65991616249084 presentation=set
+2026-09-08 16:27:55.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=234.65991616249084 prev=203.3389875292778 kbH=335.0 frameY=639.3400838375092 anim=set from=0.0 to=335.0 inc=true fin=false last=210.09694502303535
+2026-09-08 16:27:55.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=240.0828782514953 progress=0.7166653082134188
+2026-09-08 16:27:55.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=614.4833918809891 windowH=874.0 -> position=259.5166081190109 presentation=set
+2026-09-08 16:27:55.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=259.5166081190109 prev=234.65991616249084 kbH=335.0 frameY=614.4833918809891 anim=set from=0.0 to=335.0 inc=true fin=false last=240.0828782514953
+2026-09-08 16:27:55.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=263.7689943797126 progress=0.787370132476754
+2026-09-08 16:27:55.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=595.2004035711288 windowH=874.0 -> position=278.79959642887115 presentation=set
+2026-09-08 16:27:55.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=278.79959642887115 prev=259.5166081190109 kbH=335.0 frameY=595.2004035711288 anim=set from=0.0 to=335.0 inc=true fin=false last=263.7689943797126
+2026-09-08 16:27:55.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=282.0542944908229 progress=0.8419531178830534
+2026-09-08 16:27:55.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=580.4715155959129 windowH=874.0 -> position=293.52848440408707 presentation=set
+2026-09-08 16:27:55.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=293.52848440408707 prev=278.79959642887115 kbH=335.0 frameY=580.4715155959129 anim=set from=0.0 to=335.0 inc=true fin=false last=282.0542944908229
+2026-09-08 16:27:55.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=295.9944563284765 progress=0.8835655412790343
+2026-09-08 16:27:55.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=569.3985273838043 windowH=874.0 -> position=304.6014726161957 presentation=set
+2026-09-08 16:27:55.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=304.6014726161957 prev=293.52848440408707 kbH=335.0 frameY=569.3985273838043 anim=set from=0.0 to=335.0 inc=true fin=false last=295.9944563284765
+2026-09-08 16:27:55.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=306.4488451568141 progress=0.9147726721098929
+2026-09-08 16:27:55.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=561.1303218603134 windowH=874.0 -> position=312.8696781396866 presentation=set
+2026-09-08 16:27:55.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=312.8696781396866 prev=304.6014726161957 kbH=335.0 frameY=561.1303218603134 anim=set from=0.0 to=335.0 inc=true fin=false last=306.4488451568141
+2026-09-08 16:27:55.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=314.237517752545 progress=0.9380224410523731
+2026-09-08 16:27:55.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=555.031830906868 windowH=874.0 -> position=318.968169093132 presentation=set
+2026-09-08 16:27:55.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=318.968169093132 prev=312.8696781396866 kbH=335.0 frameY=555.031830906868 anim=set from=0.0 to=335.0 inc=true fin=false last=314.237517752545
+2026-09-08 16:27:55.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=319.97004563368154 progress=0.9551344645781539
+2026-09-08 16:27:55.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=550.5570017695427 windowH=874.0 -> position=323.4429982304573 presentation=set
+2026-09-08 16:27:55.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=323.4429982304573 prev=318.968169093132 kbH=335.0 frameY=550.5570017695427 anim=set from=0.0 to=335.0 inc=true fin=false last=319.97004563368154
+2026-09-08 16:27:55.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=324.1748547886858 progress=0.9676861336975696
+2026-09-08 16:27:56.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=547.2990953326225 windowH=874.0 -> position=326.7009046673775 presentation=set
+2026-09-08 16:27:56.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=326.7009046673775 prev=323.4429982304573 kbH=335.0 frameY=547.2990953326225 anim=set from=0.0 to=335.0 inc=true fin=false last=324.1748547886858
+2026-09-08 16:27:56.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=327.2315857315181 progress=0.9768107036761735
+2026-09-08 16:27:56.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=544.9351763129234 windowH=874.0 -> position=329.06482368707657 presentation=set
+2026-09-08 16:27:56.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=329.06482368707657 prev=326.7009046673775 kbH=335.0 frameY=544.9351763129234 anim=set from=0.0 to=335.0 inc=true fin=false last=327.2315857315181
+2026-09-08 16:27:56.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=329.44797119323556 progress=0.9834267796813002
+2026-09-08 16:27:56.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=543.2302864789963 windowH=874.0 -> position=330.7697135210037 presentation=set
+2026-09-08 16:27:56.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=330.7697135210037 prev=329.06482368707657 kbH=335.0 frameY=543.2302864789963 anim=set from=0.0 to=335.0 inc=true fin=false last=329.44797119323556
+2026-09-08 16:27:56.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=331.04557186188 progress=0.9881957369011343
+2026-09-08 16:27:56.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=542.0110675096512 windowH=874.0 -> position=331.9889324903488 presentation=set
+2026-09-08 16:27:56.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=331.9889324903488 prev=330.7697135210037 kbH=335.0 frameY=542.0110675096512 anim=set from=0.0 to=335.0 inc=true fin=false last=331.04557186188
+2026-09-08 16:27:56.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=332.1869228540363 progress=0.9916027547881681
+2026-09-08 16:27:56.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=541.1353304386139 windowH=874.0 -> position=332.8646695613861 presentation=set
+2026-09-08 16:27:56.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=332.8646695613861 prev=331.9889324903488 kbH=335.0 frameY=541.1353304386139 anim=set from=0.0 to=335.0 inc=true fin=false last=332.1869228540363
+2026-09-08 16:27:56.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=333.00574052761607 progress=0.9940469866496002
+2026-09-08 16:27:56.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.5109649300575 windowH=874.0 -> position=333.4890350699425 presentation=set
+2026-09-08 16:27:56.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.4890350699425 prev=332.8646695613861 kbH=335.0 frameY=540.5109649300575 anim=set from=0.0 to=335.0 inc=true fin=false last=333.00574052761607
+2026-09-08 16:27:56.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=333.58944139883175 progress=0.9957893773099455
+2026-09-08 16:27:56.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.067505478859 windowH=874.0 -> position=333.93249452114105 presentation=set
+2026-09-08 16:27:56.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.93249452114105 prev=333.4890350699425 kbH=335.0 frameY=540.067505478859 anim=set from=0.0 to=335.0 inc=true fin=false last=333.58944139883175
+2026-09-08 16:27:56.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.0040508902172 progress=0.9970270175827378
+2026-09-08 16:27:56.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.7524174451828 windowH=874.0 -> position=334.2475825548172 presentation=set
+2026-09-08 16:27:56.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.2475825548172 prev=333.93249452114105 kbH=335.0 frameY=539.7524174451828 anim=set from=0.0 to=335.0 inc=true fin=false last=334.0040508902172
+2026-09-08 16:27:56.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.2981257177625 progress=0.9979048528888433
+2026-09-08 16:27:56.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.5295395851135 windowH=874.0 -> position=334.4704604148865 presentation=set
+2026-09-08 16:27:56.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.4704604148865 prev=334.2475825548172 kbH=335.0 frameY=539.5295395851135 anim=set from=0.0 to=335.0 inc=true fin=false last=334.2981257177625
+2026-09-08 16:27:56.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.5062296140208 progress=0.9985260585493159
+2026-09-08 16:27:56.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=334.4704604148865 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=false last=334.5062296140208
+2026-09-08 16:27:56.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=335.0 progress=1.0
+2026-09-08 16:27:56.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.249 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.249 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.320 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.320 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.320 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.367 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.367 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.385 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.385 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.385 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.427 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willDisappear dur=383 prev=335.0 anim=set fin=true
+2026-09-08 16:27:56.428 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:27:56.428 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.428 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.434 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.434 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=335.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.434 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL isFinished last=335.0 to=335.0
+2026-09-08 16:27:56.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.467 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.467 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.467 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.549 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.600 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.616 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.633 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.650 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.666 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.683 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.683 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.683 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.700 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.700 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.700 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.716 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.733 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.766 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.843 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willDisappear dur=383 prev=0.0 anim=set fin=true
+2026-09-08 16:27:56.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:56.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:56.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:56.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.267 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.517 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:57.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:27:57.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:57.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] didDisappear
+2026-09-08 16:27:59.736 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willAppear h=335.0 dur=383 prev=0.0
+2026-09-08 16:27:59.737 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:27:59.737 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=0.0 to=335.0 inc=true fin=false last=0.0
+2026-09-08 16:27:59.737 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:27:59.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=866.9419113602489 windowH=874.0 -> position=7.058088639751077 presentation=set
+2026-09-08 16:27:59.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=7.058088639751077 prev=0.0 kbH=335.0 frameY=866.9419113602489 anim=set from=0.0 to=335.0 inc=true fin=false last=0.0
+2026-09-08 16:27:59.750 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=12.658335641673716 progress=0.0377860765423096
+2026-09-08 16:27:59.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=784.6220145523548 windowH=874.0 -> position=89.37798544764519 presentation=set
+2026-09-08 16:27:59.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=89.37798544764519 prev=7.058088639751077 kbH=335.0 frameY=784.6220145523548 anim=set from=0.0 to=335.0 inc=true fin=false last=12.658335641673716
+2026-09-08 16:27:59.783 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=99.59721448390675 progress=0.2973051178624082
+2026-09-08 16:27:59.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=737.2882042229176 windowH=874.0 -> position=136.71179577708244 presentation=set
+2026-09-08 16:27:59.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=136.71179577708244 prev=89.37798544764519 kbH=335.0 frameY=737.2882042229176 anim=set from=0.0 to=335.0 inc=true fin=false last=99.59721448390675
+2026-09-08 16:27:59.800 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=146.16601581587705 progress=0.43631646512202105
+2026-09-08 16:27:59.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=694.9084942936897 windowH=874.0 -> position=179.09150570631027 presentation=set
+2026-09-08 16:27:59.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=179.09150570631027 prev=136.71179577708244 kbH=335.0 frameY=694.9084942936897 anim=set from=0.0 to=335.0 inc=true fin=false last=146.16601581587705
+2026-09-08 16:27:59.816 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=187.24053292048694 progress=0.5589269639417521
+2026-09-08 16:27:59.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=658.9941891431808 windowH=874.0 -> position=215.00581085681915 presentation=set
+2026-09-08 16:27:59.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=215.00581085681915 prev=179.09150570631027 kbH=335.0 frameY=658.9941891431808 anim=set from=0.0 to=335.0 inc=true fin=false last=187.24053292048694
+2026-09-08 16:27:59.833 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=221.67066516668888 progress=0.661703478109519
+2026-09-08 16:27:59.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=630.0430300235748 windowH=874.0 -> position=243.95696997642517 presentation=set
+2026-09-08 16:27:59.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=243.95696997642517 prev=215.00581085681915 kbH=335.0 frameY=630.0430300235748 anim=set from=0.0 to=335.0 inc=true fin=false last=221.67066516668888
+2026-09-08 16:27:59.850 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=249.2495762023023 progress=0.7440285856785144
+2026-09-08 16:27:59.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=607.210429251194 windowH=874.0 -> position=266.789570748806 presentation=set
+2026-09-08 16:27:59.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=266.789570748806 prev=243.95696997642517 kbH=335.0 frameY=607.210429251194 anim=set from=0.0 to=335.0 inc=true fin=false last=249.2495762023023
+2026-09-08 16:27:59.866 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=270.9141286026049 progress=0.8086988913510593
+2026-09-08 16:27:59.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=589.6017205119133 windowH=874.0 -> position=284.3982794880867 presentation=set
+2026-09-08 16:27:59.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=284.3982794880867 prev=266.789570748806 kbH=335.0 frameY=589.6017205119133 anim=set from=0.0 to=335.0 inc=true fin=false last=270.9141286026049
+2026-09-08 16:27:59.883 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=287.5428217938577 progress=0.858336781474202
+2026-09-08 16:27:59.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=576.2326231002808 windowH=874.0 -> position=297.76737689971924 presentation=set
+2026-09-08 16:27:59.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=297.76737689971924 prev=284.3982794880867 kbH=335.0 frameY=576.2326231002808 anim=set from=0.0 to=335.0 inc=true fin=false last=287.5428217938577
+2026-09-08 16:27:59.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=300.1312040725017 progress=0.8959140420074677
+2026-09-08 16:27:59.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=566.236824631691 windowH=874.0 -> position=307.763175368309 presentation=set
+2026-09-08 16:27:59.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=307.763175368309 prev=297.76737689971924 kbH=335.0 frameY=566.236824631691 anim=set from=0.0 to=335.0 inc=true fin=false last=300.1312040725017
+2026-09-08 16:27:59.916 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=309.5270986104646 progress=0.9239614883894465
+2026-09-08 16:27:59.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=558.7790223360062 windowH=874.0 -> position=315.22097766399384 presentation=set
+2026-09-08 16:27:59.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=315.22097766399384 prev=307.763175368309 kbH=335.0 frameY=558.7790223360062 anim=set from=0.0 to=335.0 inc=true fin=false last=309.5270986104646
+2026-09-08 16:27:59.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=316.5228689922852 progress=0.9448443850515977
+2026-09-08 16:27:59.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=553.2966702580452 windowH=874.0 -> position=320.7033297419548 presentation=set
+2026-09-08 16:27:59.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=320.7033297419548 prev=315.22097766399384 kbH=335.0 frameY=553.2966702580452 anim=set from=0.0 to=335.0 inc=true fin=false last=316.5228689922852
+2026-09-08 16:27:59.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=321.6549915983948 progress=0.9601641540250592
+2026-09-08 16:27:59.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=549.3002038598061 windowH=874.0 -> position=324.69979614019394 presentation=set
+2026-09-08 16:27:59.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=324.69979614019394 prev=320.7033297419548 kbH=335.0 frameY=549.3002038598061 anim=set from=0.0 to=335.0 inc=true fin=false last=321.6549915983948
+2026-09-08 16:27:59.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=325.39399022402563 progress=0.9713253439523153
+2026-09-08 16:27:59.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=546.3829239606857 windowH=874.0 -> position=327.61707603931427 presentation=set
+2026-09-08 16:27:59.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=327.61707603931427 prev=324.69979614019394 kbH=335.0 frameY=546.3829239606857 anim=set from=0.0 to=335.0 inc=true fin=false last=325.39399022402563
+2026-09-08 16:27:59.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=328.11968372680695 progress=0.9794617424680805
+2026-09-08 16:28:00.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=544.2807796001434 windowH=874.0 -> position=329.71922039985657 presentation=set
+2026-09-08 16:28:00.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=329.71922039985657 prev=327.61707603931427 kbH=335.0 frameY=544.2807796001434 anim=set from=0.0 to=335.0 inc=true fin=false last=328.11968372680695
+2026-09-08 16:28:00.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=330.0823500841913 progress=0.9853204480125114
+2026-09-08 16:28:00.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=542.760569691658 windowH=874.0 -> position=331.239430308342 presentation=set
+2026-09-08 16:28:00.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=331.239430308342 prev=329.71922039985657 kbH=335.0 frameY=542.760569691658 anim=set from=0.0 to=335.0 inc=true fin=false last=330.0823500841913
+2026-09-08 16:28:00.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=331.49994755431925 progress=0.9895520822516992
+2026-09-08 16:28:00.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=541.6713794469833 windowH=874.0 -> position=332.32862055301666 presentation=set
+2026-09-08 16:28:00.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=332.32862055301666 prev=331.239430308342 kbH=335.0 frameY=541.6713794469833 anim=set from=0.0 to=335.0 inc=true fin=false last=331.49994755431925
+2026-09-08 16:28:00.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=332.51558977988304 progress=0.9925838500892031
+2026-09-08 16:28:00.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.8954402208328 windowH=874.0 -> position=333.1045597791672 presentation=set
+2026-09-08 16:28:00.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.1045597791672 prev=332.32862055301666 kbH=335.0 frameY=540.8954402208328 anim=set from=0.0 to=335.0 inc=true fin=false last=332.51558977988304
+2026-09-08 16:28:00.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=333.2380090179541 progress=0.9947403254267286
+2026-09-08 16:28:00.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.3405019044876 windowH=874.0 -> position=333.6594980955124 presentation=set
+2026-09-08 16:28:00.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.6594980955124 prev=333.1045597791672 kbH=335.0 frameY=540.3405019044876 anim=set from=0.0 to=335.0 inc=true fin=false last=333.2380090179541
+2026-09-08 16:28:00.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=333.7542851244363 progress=0.9962814481326457
+2026-09-08 16:28:00.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.9461227059364 windowH=874.0 -> position=334.05387729406357 presentation=set
+2026-09-08 16:28:00.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.05387729406357 prev=333.6594980955124 kbH=335.0 frameY=539.9461227059364 anim=set from=0.0 to=335.0 inc=true fin=false last=333.7542851244363
+2026-09-08 16:28:00.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.1213364927229 progress=0.9973771238588743
+2026-09-08 16:28:00.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.6658181548119 windowH=874.0 -> position=334.33418184518814 presentation=set
+2026-09-08 16:28:00.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.33418184518814 prev=334.05387729406357 kbH=335.0 frameY=539.6658181548119 anim=set from=0.0 to=335.0 inc=true fin=false last=334.1213364927229
+2026-09-08 16:28:00.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.3817746091839 progress=0.9981545510721906
+2026-09-08 16:28:00.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.4683589935303 windowH=874.0 -> position=334.5316410064697 presentation=set
+2026-09-08 16:28:00.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=334.5316410064697 prev=334.33418184518814 kbH=335.0 frameY=539.4683589935303 anim=set from=0.0 to=335.0 inc=true fin=false last=334.3817746091839
+2026-09-08 16:28:00.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=334.5653355109871 progress=0.9987024940626481
+2026-09-08 16:28:00.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=334.5316410064697 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=false last=334.5653355109871
+2026-09-08 16:28:00.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=335.0 progress=1.0
+2026-09-08 16:28:00.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=0.0 to=335.0 inc=true fin=true last=335.0
+2026-09-08 16:28:00.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.419 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] didAppear h=335.0 progress=1.0
+2026-09-08 16:28:00.894 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] willDisappear dur=383 prev=335.0 anim=nil fin=false
+2026-09-08 16:28:00.895 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=539.0 windowH=874.0 -> position=335.0 presentation=set
+2026-09-08 16:28:00.895 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=335.0 prev=335.0 kbH=335.0 frameY=539.0 anim=set from=335.0 to=0.0 inc=false fin=false last=335.0
+2026-09-08 16:28:00.895 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:00.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=540.2501390418038 windowH=874.0 -> position=333.7498609581962 presentation=set
+2026-09-08 16:28:00.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=333.7498609581962 prev=335.0 kbH=335.0 frameY=540.2501390418038 anim=set from=335.0 to=0.0 inc=false fin=false last=335.0
+2026-09-08 16:28:00.900 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=332.9077033349618 progress=0.9937543383133188
+2026-09-08 16:28:00.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=612.2967248558998 windowH=874.0 -> position=261.7032751441002 presentation=set
+2026-09-08 16:28:00.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=261.7032751441002 prev=333.7498609581962 kbH=335.0 frameY=612.2967248558998 anim=set from=335.0 to=0.0 inc=false fin=false last=332.9077033349618
+2026-09-08 16:28:00.933 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=258.36227191694724 progress=0.7712306624386485
+2026-09-08 16:28:00.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=660.2693671882153 windowH=874.0 -> position=213.73063281178474 presentation=set
+2026-09-08 16:28:00.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=213.73063281178474 prev=261.7032751441002 kbH=335.0 frameY=660.2693671882153 anim=set from=335.0 to=0.0 inc=false fin=false last=258.36227191694724
+2026-09-08 16:28:00.950 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=210.50648219340525 progress=0.6283775587862843
+2026-09-08 16:28:00.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=704.7214897871017 windowH=874.0 -> position=169.27851021289825 presentation=set
+2026-09-08 16:28:00.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=169.27851021289825 prev=213.73063281178474 kbH=335.0 frameY=704.7214897871017 anim=set from=335.0 to=0.0 inc=false fin=false last=210.50648219340525
+2026-09-08 16:28:00.966 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=166.43354733512874 progress=0.49681655920933954
+2026-09-08 16:28:00.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=742.810102045536 windowH=874.0 -> position=131.18989795446396 presentation=set
+2026-09-08 16:28:00.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=131.18989795446396 prev=169.27851021289825 kbH=335.0 frameY=742.810102045536 anim=set from=335.0 to=0.0 inc=false fin=false last=166.43354733512874
+2026-09-08 16:28:00.983 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=128.80878196820737 progress=0.3845038267707683
+2026-09-08 16:28:01.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=774.0307935476303 windowH=874.0 -> position=99.96920645236969 presentation=set
+2026-09-08 16:28:01.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=99.96920645236969 prev=131.18989795446396 kbH=335.0 frameY=774.0307935476303 anim=set from=335.0 to=0.0 inc=false fin=false last=128.80878196820737
+2026-09-08 16:28:01.000 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=98.04630970932463 progress=0.2926755513711183
+2026-09-08 16:28:01.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=798.7926995158195 windowH=874.0 -> position=75.20730048418045 presentation=set
+2026-09-08 16:28:01.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=75.20730048418045 prev=99.96920645236969 kbH=335.0 frameY=798.7926995158195 anim=set from=335.0 to=0.0 inc=false fin=false last=98.04630970932463
+2026-09-08 16:28:01.016 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=73.71522943749648 progress=0.22004546100745218
+2026-09-08 16:28:01.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=818.0345945954323 windowH=874.0 -> position=55.96540540456772 presentation=set
+2026-09-08 16:28:01.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=55.96540540456772 prev=75.20730048418045 kbH=335.0 frameY=818.0345945954323 anim=set from=335.0 to=0.0 inc=false fin=false last=73.71522943749648
+2026-09-08 16:28:01.033 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=54.82163727943004 progress=0.16364667844605982
+2026-09-08 16:28:01.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=832.6795589327812 windowH=874.0 -> position=41.32044106721878 presentation=set
+2026-09-08 16:28:01.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=41.32044106721878 prev=55.96540540456772 kbH=335.0 frameY=832.6795589327812 anim=set from=335.0 to=0.0 inc=false fin=false last=54.82163727943004
+2026-09-08 16:28:01.050 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=40.446411503389506 progress=0.12073555672653584
+2026-09-08 16:28:01.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=843.7452789545059 windowH=874.0 -> position=30.25472104549408 presentation=set
+2026-09-08 16:28:01.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=30.25472104549408 prev=41.32044106721878 kbH=335.0 frameY=843.7452789545059 anim=set from=335.0 to=0.0 inc=false fin=false last=40.446411503389506
+2026-09-08 16:28:01.066 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=29.60286359129054 progress=0.08836675698892699
+2026-09-08 16:28:01.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=851.9692164063454 windowH=874.0 -> position=22.030783593654633 presentation=set
+2026-09-08 16:28:01.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=22.030783593654633 prev=30.25472104549408 kbH=335.0 frameY=851.9692164063454 anim=set from=335.0 to=0.0 inc=false fin=false last=29.60286359129054
+2026-09-08 16:28:01.083 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=21.54739139268846 progress=0.06432057132145809
+2026-09-08 16:28:01.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=858.0431073307991 windowH=874.0 -> position=15.956892669200897 presentation=set
+2026-09-08 16:28:01.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=15.956892669200897 prev=22.030783593654633 kbH=335.0 frameY=858.0431073307991 anim=set from=335.0 to=0.0 inc=false fin=false last=21.54739139268846
+2026-09-08 16:28:01.100 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=15.602202887094569 progress=0.046573739961476325
+2026-09-08 16:28:01.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=862.5018026828766 windowH=874.0 -> position=11.498197317123413 presentation=set
+2026-09-08 16:28:01.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=11.498197317123413 prev=15.956892669200897 kbH=335.0 frameY=862.5018026828766 anim=set from=335.0 to=0.0 inc=false fin=false last=15.602202887094569
+2026-09-08 16:28:01.116 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=11.239354799680402 progress=0.033550312834866876
+2026-09-08 16:28:01.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=865.740859746933 windowH=874.0 -> position=8.259140253067017 presentation=set
+2026-09-08 16:28:01.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=8.259140253067017 prev=11.498197317123413 kbH=335.0 frameY=865.740859746933 anim=set from=335.0 to=0.0 inc=false fin=false last=11.239354799680402
+2026-09-08 16:28:01.133 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=8.07154017926172 progress=0.024094149788840957
+2026-09-08 16:28:01.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=868.0884652733803 windowH=874.0 -> position=5.9115347266197205 presentation=set
+2026-09-08 16:28:01.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=5.9115347266197205 prev=8.259140253067017 kbH=335.0 frameY=868.0884652733803 anim=set from=335.0 to=0.0 inc=false fin=false last=8.07154017926172
+2026-09-08 16:28:01.150 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=5.7761998885839345 progress=0.017242387727116223
+2026-09-08 16:28:01.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=869.7829120755196 windowH=874.0 -> position=4.217087924480438 presentation=set
+2026-09-08 16:28:01.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=4.217087924480438 prev=5.9115347266197205 kbH=335.0 frameY=869.7829120755196 anim=set from=335.0 to=0.0 inc=false fin=false last=5.7761998885839345
+2026-09-08 16:28:01.166 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=4.119366293413942 progress=0.01229661580123565
+2026-09-08 16:28:01.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=871.0008131861687 windowH=874.0 -> position=2.9991868138313293 presentation=set
+2026-09-08 16:28:01.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=2.9991868138313293 prev=4.217087924480438 kbH=335.0 frameY=871.0008131861687 anim=set from=335.0 to=0.0 inc=false fin=false last=4.119366293413942
+2026-09-08 16:28:01.183 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=2.9285903485082407 progress=0.008742060741815645
+2026-09-08 16:28:01.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=871.871997654438 windowH=874.0 -> position=2.128002345561981 presentation=set
+2026-09-08 16:28:01.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=2.128002345561981 prev=2.9991868138313293 kbH=335.0 frameY=871.871997654438 anim=set from=335.0 to=0.0 inc=false fin=false last=2.9285903485082407
+2026-09-08 16:28:01.200 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=2.0780475351240475 progress=0.006203126970519545
+2026-09-08 16:28:01.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=872.4939071536064 windowH=874.0 -> position=1.5060928463935852 presentation=set
+2026-09-08 16:28:01.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=1.5060928463935852 prev=2.128002345561981 kbH=335.0 frameY=872.4939071536064 anim=set from=335.0 to=0.0 inc=false fin=false last=2.0780475351240475
+2026-09-08 16:28:01.216 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=1.4702060870290339 progress=0.004388674886653832
+2026-09-08 16:28:01.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=872.936328291893 windowH=874.0 -> position=1.0636717081069946 presentation=set
+2026-09-08 16:28:01.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=1.0636717081069946 prev=1.5060928463935852 kbH=335.0 frameY=872.936328291893 anim=set from=335.0 to=0.0 inc=false fin=false last=1.4702060870290339
+2026-09-08 16:28:01.233 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=1.0383111381666181 progress=0.0030994362333331884
+2026-09-08 16:28:01.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=873.2505976557732 windowH=874.0 -> position=0.7494023442268372 presentation=set
+2026-09-08 16:28:01.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.7494023442268372 prev=1.0636717081069946 kbH=335.0 frameY=873.2505976557732 anim=set from=335.0 to=0.0 inc=false fin=false last=1.0383111381666181
+2026-09-08 16:28:01.250 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=0.731417661244844 progress=0.002183336302223415
+2026-09-08 16:28:01.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=873.4723173975945 windowH=874.0 -> position=0.5276826024055481 presentation=set
+2026-09-08 16:28:01.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.5276826024055481 prev=0.7494023442268372 kbH=335.0 frameY=873.4723173975945 anim=set from=335.0 to=0.0 inc=false fin=false last=0.731417661244844
+2026-09-08 16:28:01.266 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=0.5149879797859644 progress=0.0015372775515998939
+2026-09-08 16:28:01.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[position] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.5276826024055481 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=false last=0.5149879797859644
+2026-09-08 16:28:01.283 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] EMIT onKeyboardMove pos=0.0 progress=0.0
+2026-09-08 16:28:01.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.300 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.316 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.333 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.350 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.366 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.383 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.400 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.416 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.433 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.450 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.466 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.483 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.500 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.516 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.533 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.550 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.566 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] frame keys=[] crossFade=false opacity=1.0 frameY=874.0 windowH=874.0 -> position=0.0 presentation=set
+2026-09-08 16:28:01.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick pos=0.0 prev=0.0 kbH=335.0 frameY=874.0 anim=set from=335.0 to=0.0 inc=false fin=true last=0.0
+2026-09-08 16:28:01.583 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] tick BAIL same-or-zero
+2026-09-08 16:28:01.585 I  KeyboardControllerExample[60557:2799d1] [kc.debug:keyboard] didDisappear
+Child process terminated with signal 15: Terminated
+
+[exited with code 143]
