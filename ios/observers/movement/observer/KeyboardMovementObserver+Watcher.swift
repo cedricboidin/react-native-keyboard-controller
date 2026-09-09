@@ -51,7 +51,7 @@ extension KeyboardMovementObserver {
     print(3)
 
     if animation == nil {
-      initializeAnimation(fromValue: prevKeyboardPosition, toValue: keyboardHeight)
+      initializeAnimation(fromValue: prevKeyboardPosition, toValue: transitionTarget)
 
       if let animation {
         scheduleDidEvent(

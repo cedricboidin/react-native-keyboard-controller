@@ -20,6 +20,7 @@ public class KeyboardMovementObserver: NSObject {
   // progress tracker
   @objc public var keyboardTrackingView = KeyboardTrackingView()
   var animation: KeyboardAnimation?
+  var transitionTarget = 0.0
 
   var prevKeyboardPosition = 0.0
   var displayLink: CADisplayLink!

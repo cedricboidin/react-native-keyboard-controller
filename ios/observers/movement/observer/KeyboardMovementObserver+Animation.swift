@@ -23,5 +23,7 @@ extension KeyboardMovementObserver {
         return
       }
     }
+
+    animation = nil
   }
 }
